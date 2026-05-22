@@ -1,49 +1,4 @@
-// import SalaryForm from "../Components/SalaryForm";
-// import SalaryResult from "../Components/SalaryResult";
-// import { useSalary } from "../Hooks/useSalary";
 
-// const SalaryEstimator = () => {
-//   const { result, loading, getSalary } = useSalary();
-
-//   return (
-//     <div>
-//       <h1>Salary Estimator</h1>
-
-//       <SalaryForm onSubmit={getSalary} />
-      
-
-//       {loading && <p>Loading...</p>}
-
-//       <SalaryResult result={result} />
-//     </div>
-//   );
-// };
-
-// export default SalaryEstimator;
-
-// client/src/features/salary/pages/SalaryEstimator.jsx
-
-// import SalaryForm from "../Components/SalaryForm";
-// import SalaryResult from "../Components/SalaryResult";
-// import { useSalary } from "../Hooks/useSalary";
-
-// const SalaryEstimator = () => {
-//   const { result, getSalary } = useSalary();
-
-//   return (
-//     <div style={{ padding: "20px" }}>
-//       <h1>Salary Estimator</h1>
-
-//       <SalaryForm onSubmit={getSalary} />
-
-//       <SalaryResult result={result} />
-//     </div>
-//   );
-// };
-
-// export default SalaryEstimator;
-
-// client/src/features/salary/pages/SalaryEstimator.jsx
 import React from 'react';
 import { motion } from 'framer-motion';
 import SalaryForm from "../Components/SalaryForm";

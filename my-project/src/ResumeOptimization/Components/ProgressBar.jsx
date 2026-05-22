@@ -1,20 +1,4 @@
-// import React from "react";
 
-// const ProgressBar = ({ score }) => {
-//   return (
-//     <div style={{ width: "100%", background: "#ddd", height: "20px" }}>
-//       <div
-//         style={{
-//           width: `${score}%`,
-//           height: "100%",
-//           background: score > 70 ? "green" : score > 40 ? "orange" : "red",
-//         }}
-//       />
-//     </div>
-//   );
-// };
-
-// export default ProgressBar;
 
 import React from "react";
 import { motion } from "framer-motion";

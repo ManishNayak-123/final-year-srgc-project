@@ -1,17 +1,4 @@
-// import { useLocation } from "react-router-dom";
 
-// function ResultPage() {
-//   const { state } = useLocation();
-
-//   return (
-//     <div className="p-6">
-//       <h1>Result</h1>
-//       <h2>Your Score: {state?.score}</h2>
-//     </div>
-//   );
-// }
-
-// export default ResultPage;
 
 import { useLocation, Link } from "react-router-dom";
 import { Award, RefreshCcw, Home, ChevronRight } from "lucide-react";

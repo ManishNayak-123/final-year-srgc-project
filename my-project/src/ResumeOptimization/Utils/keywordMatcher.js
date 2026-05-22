@@ -1,19 +1,4 @@
-// import { KEYWORDS } from "../Constants/keyword";
 
-// export const keywordMatcher = (text) => {
-//   const matched = [];
-//   const missing = [];
-
-//   KEYWORDS.forEach((keyword) => {
-//     if (text.includes(keyword)) {
-//       matched.push(keyword);
-//     } else {
-//       missing.push(keyword);
-//     }
-//   });
-
-//   return { matched, missing };
-// };
 
 import { KEYWORDS } from "../Constants/keyword";
 

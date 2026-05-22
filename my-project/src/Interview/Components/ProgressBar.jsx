@@ -1,14 +1,3 @@
-// function ProgressBar({ current, total }) {
-//   return (
-//     <div>
-//       <p>
-//         Question {current} / {total}
-//       </p>
-//     </div>
-//   );
-// }
-
-// export default ProgressBar;
 
 import { motion } from "framer-motion";
 

@@ -1,33 +1,4 @@
-// import React from "react";
-// import FileUpload from "../Components/FileUpload";
-// import ScoreCard from "../Components/ScoreCard";
-// import ProgressBar from "../Components/ProgressBar";
-// import Suggestions from "../Components/Suggestions";
-// import { useResumeAnalyzer } from "../Hooks/useResumeAnalyzer";
 
-// const ResumeAnalyzerPage = () => {
-//   const { score, matchedKeywords, loading, analyzeResume } = useResumeAnalyzer();
-
-//   return (
-//     <div style={{ padding: "20px" }}>
-//       <h1>Resume Optimization</h1>
-
-//       <FileUpload onUpload={analyzeResume} />
-
-//       {loading && <p>Analyzing...</p>}
-
-//       {score !== null && (
-//         <>
-//           <ScoreCard score={score} />
-//           <ProgressBar score={score} />
-//           <Suggestions matchedKeywords={matchedKeywords} />
-//         </>
-//       )}
-//     </div>
-//   );
-// };
-
-// export default ResumeAnalyzerPage;
 
 import React from "react";
 import { motion, AnimatePresence } from "framer-motion";

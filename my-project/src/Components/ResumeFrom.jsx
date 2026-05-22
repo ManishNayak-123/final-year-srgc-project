@@ -50,7 +50,7 @@ const ResumeForm = ({ resumeData, setResumeData }) => {
   if (!resumeData) return <div className="p-10 text-center text-slate-500">Initializing JiViKa Form...</div>;
 
   return (
-    <div className='md:p-0 p-15 md:mt-0 mt-[-50px]  md:ml-0 ml-[-80px] items-center '>
+    <div className='md:p-0 p-20 pr-5 md:mt-0 mt-[-50px]  md:ml-0 ml-[-80px] items-center '>
     <div className=" bg-white rounded-2xl  shadow-lg border border-slate-200 overflow-hidden flex flex-col h-full">
       
       {/* 1. Step Indicator Navigation */}

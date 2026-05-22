@@ -28,7 +28,7 @@ const TemplateSelector = ({ resumeData, setResumeData }) => {
   };
 
   return (
-    <div className="page-break md:p-0 p-20 md:ml-0 ml-[-80px] justify-self-center">
+    <center><div className="page-break md:p-0 p-20 pr-5  md:ml-0 ml-[-80px] ">
     <div className="  justify-self-center bg-white rounded-2xl shadow-sm border border-slate-200">
       <div className="flex items-center gap-2 mb-6">
         <Layout className="text-blue-600" size={24} />
@@ -74,7 +74,7 @@ const TemplateSelector = ({ resumeData, setResumeData }) => {
         </p>
       </div>
       </div>
-    </div>
+    </div></center>
   );
 };
 
